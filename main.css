@@ -1,9 +1,39 @@
+.lineaire-simple { # permet de faire des dégradés de couleurs simples
+  background: linear-gradient(orange, red);
+}
 #Prpage{
-    background-color: #ff7b00;
+    background: linear-gradient(orange, rgb(228, 190, 146));
 }
 .Rectangle{
     background-color: #ff0000;
     position: relative;
-    padding: 70px;
-    right: 10px;
+    padding-bottom: 100%;
+    margin : 3%;
+}
+#cv{
+    background-color: #ff7b00;
+    position: absolute;
+    padding: 5%;     
+    top: 15%;
+    left: 150px;
+    right: 150px;
+    text-align: center;
+}
+#contact{
+    background-color: #ff7b00;
+    position: absolute;
+    padding: 5%;     
+    top: 35%;
+    left: 150px;
+    right: 150px;
+    text-align: center;
+}
+#thématique{
+    background-color: #ff7b00;
+    position: absolute;
+    padding: 5%;     
+    top: 55%;
+    left: 150px;
+    right: 150px;
+    text-align: center;
 }

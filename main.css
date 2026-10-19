@@ -1,0 +1,9 @@
+#Prpage{
+    background-color: #ff7b00;
+}
+.Rectangle{
+    background-color: #ff0000;
+    position: relative;
+    padding: 70px;
+    right: 10px;
+}

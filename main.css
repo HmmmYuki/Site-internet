@@ -11,7 +11,7 @@
     margin : 3%;
 }
 #cv{
-    background-color: #ff7b00;
+    background: linear-gradient(orange, rgb(228, 190, 146));
     position: absolute;
     padding: 5%;     
     top: 15%;
@@ -20,7 +20,7 @@
     text-align: center;
 }
 #contact{
-    background-color: #ff7b00;
+    background: linear-gradient(orange, rgb(228, 190, 146));
     position: absolute;
     padding: 5%;     
     top: 35%;
@@ -29,7 +29,7 @@
     text-align: center;
 }
 #thématique{
-    background-color: #ff7b00;
+    background: linear-gradient(orange, rgb(228, 190, 146));
     position: absolute;
     padding: 5%;     
     top: 55%;

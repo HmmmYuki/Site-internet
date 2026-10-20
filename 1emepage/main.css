@@ -8,7 +8,7 @@
     padding-bottom: 100%;
     margin : 3%;
 }
-#Prpage{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
+.Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
     background: linear-gradient(orange, rgb(228, 190, 146));
 }
 #cv{ /* Cela permet de créer un rectangle pour le cv avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal */

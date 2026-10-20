@@ -2,16 +2,16 @@
   background: linear-gradient(orange, red);
 }
 
-.Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
+.Rectangle{ /* Le .Rectangle permet de créer une class pouvant être réutilisable plusieurs fois pour placer un rectangle donnant la possibilité de mettre à l'intérieur du texte ou autre */
     background-color: #ff0000;
-    position: relative;
+    position: relative; 
     padding-bottom: 100%;
     margin : 3%;
 }
-.Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
+.Fond{ /* Le .Fond permet de rajoutee un fond avec un dégradé de couleur sur la page, tout en sachant que c'est une class réutilisable */
     background: linear-gradient(orange, rgb(228, 190, 146));
 }
-#cv{ /* Cela permet de créer un rectangle pour le cv avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal */
+#cv{ /* Cela permet de créer un rectangle pour le cv avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal (j'ai utilise un id pour bien spécifier le CV) */
     background: linear-gradient(orange, rgb(228, 190, 146));
     position: absolute;
     padding: 5%;     
@@ -20,7 +20,7 @@
     right: 150px;
     text-align: center;
 }
-#contact{ /* Cela permet de créer un rectangle pour le contact avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal */
+#contact{ /* Cela permet de créer un rectangle pour le contact avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal (j'ai utilise un id pour bien spécifier le contact)*/
     background: linear-gradient(orange, rgb(228, 190, 146));
     position: absolute;
     padding: 5%;     
@@ -29,7 +29,7 @@
     right: 150px;
     text-align: center;
 }
-#thématique{ /* Cela permet de créer un rectangle pour la thématique avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal */
+#thématique{ /* Cela permet de créer un rectangle pour la thématique avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal (j'ai utilise un id pour bien spécifier la thématique) */
     background: linear-gradient(orange, rgb(228, 190, 146));
     position: absolute;
     padding: 5%;     

@@ -10,10 +10,10 @@
 }
 
 img {
-  display: block; /* sert à éviter que ce soit compter comme un texte */
-  margin-left: auto; /* sert à répartir l'image dans l'espace restant */
-  margin-right: auto;
-  width: 10%;
+  display: text; /* sert à faire qu'il soit compter comme un texte */
+  margin-left: 45%; /* sert à répartir l'image dans un espace choisi */
+  position : relative; /* sert à faire que l'image soit positionné par rapport à son parent */
+  width: 10%; /* sert à augmenter la taille de l'image */
 }
 
 .underline {
@@ -60,12 +60,10 @@ tfoot td {
   font-weight: bold;
 }
 
-.ChangePage {
-  background: linear-gradient(rgb(0, 60, 255), rgb(183, 228, 146));
-  position: absolute;
-  padding: 5%;     
-  top: 15%;
-  left: 150px;
-  right: 150px;
-  text-align: center; 
+.Cpage { /* j'ai créé la class Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal; cela peut être réutilisable */
+  background-color: #e96c06e8;
+  display: table-cell; /* cela permet de faire que le rectangle soit compter comme la cellule d'un tableau */
+  margin-right: 90%;
+  padding: 10px;
+  text-align: center;
 }

@@ -1,0 +1,40 @@
+.lineaire-simple { /*permet de faire des dégradés de couleurs simples */
+  background: linear-gradient(orange, red);
+}
+
+.Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
+    background-color: #00b7ff;
+    position: relative;
+    padding-bottom: 100%;
+    margin : 3%;
+}
+#Prpage{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+}
+#cv{ /* Cela permet de créer un rectangle pour le cv avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+    position: absolute;
+    padding: 5%;     
+    top: 15%;
+    left: 150px;
+    right: 150px;
+    text-align: center;
+}
+#contact{ /* Cela permet de créer un rectangle pour le contact avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+    position: absolute;
+    padding: 5%;     
+    top: 35%;
+    left: 150px;
+    right: 150px;
+    text-align: center;
+}
+#thématique{ /* Cela permet de créer un rectangle pour la thématique avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+    position: absolute;
+    padding: 5%;     
+    top: 55%;
+    left: 150px;
+    right: 150px;
+    text-align: center;
+}

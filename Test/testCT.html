@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='testCT.css'>
+</head>
+<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../1emepage/index.html"> 
+    <p>
+      <strong> <!-- permet de mettre le texte en gras -->
+        Présentation
+      </strong>
+    </p>
+  </a>
+</div>
+<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../CV/CV_FR.html"> 
+    <p>
+      <strong> <!-- permet de mettre le texte en gras -->
+        Mon CV
+      </strong>
+    </p>
+  </a>
+</div>
+<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../1emepage/index.html"> 
+    <p>
+      <strong> <!-- permet de mettre le texte en gras -->
+        Ma thématique
+      </strong>
+    </p>
+  </a>
+</div>
+<body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
+  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fais tout renter dans un rectangle prédéfini par la class Rectangle -->
+    <center>  
+      <h1 style="color: red;" >
+        <strong> <!-- permet de mettre le texte en gras -->
+          Formulaire de contact
+        </strong>
+      </h1>
+    </center>
+    <div id="formulaire">
+     <form>
+          Nom :
+        <input type="" placeholder="Indiquer votre Nom ici">
+          Prénom : 
+        <input type="text" placeholder="Indiquer votre Prénom ici">
+          Email : 
+        <input type="email" placeholder="Indiquer votre Email ici">
+          Âge : 
+        <input type="number" placeholder="Indiquer votre Âge ici">
+          Sexe : Homme
+        <input type="radio" name="sexe" value="homme"> 
+        Femme
+        <input type="radio" name="sexe" value="femme"> 
+        Message :
+        <textarea placeholder="Indiquer votre message ici"></textarea>
+        <hr>
+        <input type="submit" value="Envoyer">
+      </form>
+    </div>

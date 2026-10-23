@@ -1,0 +1,24 @@
+.Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
+    background: linear-gradient(rgb(233, 58, 46), rgb(230, 83, 83));
+    position: relative;
+    padding-bottom: 100%;
+    margin : 3%;
+    
+}
+
+.Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+    background-image: url("https://m.media-amazon.com/images/M/MV5BZmQwMjQ2ZTUtZmM5MC00MTdkLWIxYzgtODU1NzQ4Zjg4NmMxXkEyXkFqcGc@._V1_.jpg"); /* ceci ser à rajouter en fond du site une image venant d'une url */
+}
+
+.Cpage { /* j'ai créé la class Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal; cela peut être réutilisable */
+  background-color: #e96c06e8;
+  display: table-cell; /* cela permet de faire que le rectangle soit compter comme la cellule d'un tableau */
+  margin-right: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}

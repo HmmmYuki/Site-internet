@@ -1,5 +1,5 @@
 .Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
-    background-color: #ffffff;
+    background: linear-gradient(rgb(255, 72, 0), rgb(228, 190, 146));
     position: relative;
     padding-bottom: 100%;
     margin : 3%;
@@ -17,6 +17,19 @@
   text-align: center;
 }
 
-.underline {
+.underline { /* cette class permet de souligner le texte */
   text-decoration: underline;
+}
+
+.tableau { /* cette classe permet de créer un tableau dans lequel j'ai pu insérer plusieurs images */
+  left: 12%;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+}
+
+#txt {
+  position: relative;
+  left : 10%;
+  text-align: ;
 }

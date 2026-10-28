@@ -1,0 +1,33 @@
+.Rectangle{ /* permet de faire un rectangle pour placer du texte à l’intérieur ou autre */
+    background: linear-gradient(rgb(255, 72, 0), rgb(228, 190, 146));
+    margin : 3%;
+    padding: 3%;
+}
+
+.Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+}
+
+.Cpage { /* j'ai créé la class Cpage pour pouvoir mettre un rectangle avec un fond de couleur et le placer à l'intérieur du rectangle principal; elle est réutilisable. */
+  background-color: #e96c06e8;
+  display: table-cell; /* cela permet de faire que le rectangle soit compté comme la cellule d'un tableau */
+  padding: 10px;
+  text-align: center;
+}
+
+.centre { /* cette classe permet de centre le texte et les images */
+  text-align: center;
+}
+
+#txt { /* permet d'aligner le texte à gauche */
+  text-align: left;
+}
+
+.jeu img { /* permet de ne pas faire dépasser les images des blocs */
+  max-width: 100%;
+  height: auto;
+}
+
+h1 { /* permet de mettre en couleur jaune la Balise en question */
+  color : rgb(255, 238, 0);
+}

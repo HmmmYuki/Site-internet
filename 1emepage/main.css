@@ -38,3 +38,13 @@
     right: 150px;
     text-align: center;
 }
+
+#image{ /* Cela permet de créer un rectangle pour les images du site avec un dégradé de couleur et de le placer à l'intérieur du rectangle principal (j'ai utilise un id pour bien spécifier la l'image du site) */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+    position: absolute;
+    padding: 5%;     
+    top: 75%;
+    left: 150px;
+    right: 150px;
+    text-align: center;
+}

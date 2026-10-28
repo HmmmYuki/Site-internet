@@ -12,7 +12,7 @@
 }
 
 .Cpage { /* j'ai créé la classe Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal ; cela peut être réutilisable */
-  background-color: #f70808e8;
+  background-color: rgb(255, 144, 17);
   display: table-cell; /* cela permet de faire que le rectangle soit compter comme la cellule d'un tableau */
   margin-right: 90%;
   padding: 10px;

@@ -1,22 +1,49 @@
 .Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
-    background-color: #ffffff;
-    position: relative;
-    padding-bottom: 100%;
-    margin : 3%;
+    background: linear-gradient(rgb(146, 85, 85), rgb(231, 122, 122)); /* cela permet de mettre un fond d'image avec un dégradé de couleur */
+    position: relative; /* permet de faire prendre l'origine du conteneur parent en haut à gauche */
+    padding-bottom: 100%; /* Sert à définir un espace à l'intérieur de la zone de contenu */
+    margin : 3%; /* ça permet de créer un espace autour de l'image */
+    
 }
 
 .Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
     background: linear-gradient(orange, rgb(228, 190, 146));
+    background-image: url("https://sm.ign.com/ign_fr/cover/d/dead-by-da/dead-by-daylight_kvyu.jpg"); /* ceci ser à rajouter en fond du site une image venant d'une url */
 }
 
-.Cpage { /* j'ai créé la class Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal; cela peut être réutilisable */
-  background-color: #e96c06e8;
+.Cpage { /* j'ai créé la classe Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal ; cela peut être réutilisable */
+  background-color: rgb(146, 85, 85);
   display: table-cell; /* cela permet de faire que le rectangle soit compter comme la cellule d'un tableau */
   margin-right: 90%;
   padding: 10px;
-  text-align: center;
+  text-align: center; /* permet de mettre le texte au millieu de l'image */
 }
 
 .underline {
-  text-decoration: underline;
+  text-decoration: underline; /* permet de souligner le texte */
+}
+
+.Titre {
+  text-align: center;
+  padding : 10px;
+  font-size : 2em; /* Cela sert à augmenter la taille du texte en fonction de la taille du parent */
+}
+
+.Soustitre {
+  text-align: center;
+  font-size: 2em;
+}
+
+.Cac {
+  display : flex; /* cela permet de placer côte à côte les choses, à la place de les empiler */
+}
+
+.img {
+  margin: 10px; /* ça permet de créer un espace autour de l'image */
+  height : 50%; /* ça permet de gérer la taille de l'image */
+}
+
+.texteV {
+  flex: 1;             /* le texte prend tout l'espace restant */
+  font-size: 1.50rem;
 }

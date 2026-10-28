@@ -1,0 +1,38 @@
+.Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
+    background-color: #ffffff;
+    position: relative;
+    padding-bottom: 100%;
+    margin : 3%;
+}
+
+.Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
+    background: linear-gradient(orange, rgb(228, 190, 146));
+}
+
+.Cpage { /* j'ai créé la class Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal; cela peut être réutilisable */
+  background-color: #e96c06e8;
+  display: table-cell; /* cela permet de faire que le rectangle soit compter comme la cellule d'un tableau */
+  margin-right: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.Titre {
+  text-align: center;
+  padding : 10px;
+  font-size : 2em; /* Cela sert à augmenter la taille du texte en fonction de la taille du parent */
+}
+
+.AllImage {
+  display: flex; /* permet de placer chaque chose côte à côte au lieu de les empiler */
+  flex-wrap: wrap; /* permet de faire passer les images en dessous si elle ne peuvent pas se placer */
+  gap : 15px; /* permet de rajouter un petit écart entre chaque image */
+}
+
+.AllImage img {
+  max-width: 25%; /* permet de donner une largeur maximal au image */
+}

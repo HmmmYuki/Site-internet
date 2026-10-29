@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html> <!-- Permet d'indiquer au navigateur que la page est écrite en HTML 5 -->
+<!--
+    Fichier : CT.html
+    Rôle : page de contact (formulaire + coordonnées)
+    Auteur : Tanguy JACQUES - Date : 23/10/2026
+-->
+
+<html lang='fr'> <!-- Permet d'indiquer la langue principale du contenu de la page -->
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
-    <link rel='stylesheet' href='CT.css'>
+    <meta charset='utf-8'> <!-- Permet de bien afficher les accents et symboles spéciaux -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Permet l'affichage sur téléphone -->
+    <title>Page des Contacts</title> <!-- Ceci est le titre de la page -->
+    <link rel='stylesheet' href='CT.css'> <!-- Permet de relier ma page HTML à mon fichier CSS -->
 </head>
-<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+
+<body class="Fond">  <!--ceci est le body de ma page de Contact, il sert à prendre en compte toute la page du site-->
+<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../1emepage/index.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
@@ -15,7 +23,7 @@
     </p>
   </a>
 </div>
-<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../CV/CV_FR.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
@@ -24,8 +32,8 @@
     </p>
   </a>
 </div>
-<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
-  <a href="../1thématique/thematique.html"> 
+<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../1thematique/thematique.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
         Ma thématique
@@ -33,50 +41,71 @@
     </p>
   </a>
 </div>
-<body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
-  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fais tout renter dans un rectangle prédéfini par la class Rectangle -->
-    <center>  
-      <h1 style="color: red;" >
-        <strong> <!-- permet de mettre le texte en gras -->
-          Formulaire de contact
-        </strong>
+<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../Image/image.html"> 
+    <p>
+      <strong> <!-- permet de mettre le texte en gras -->
+        Image du Site
+      </strong>
+    </p>
+  </a>
+</div>
+  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du formulaire, cette div fait tout rentrer dans un rectangle prédéfini par la class Rectangle -->
+    <div class="centre">
+      <h1>
+        Formulaire de contact
       </h1>
-    </center>
+    </div>  
     <div id="formulaire">
      <form>
           Nom :
-        <input type="" placeholder="Indiquer votre Nom ici">
+        <input type="text" name="nom" placeholder="Indiquer votre Nom ici">
           Prénom : 
-        <input type="text" placeholder="Indiquer votre Prénom ici">
+        <input type="text" name="prenom" placeholder="Indiquer votre Prénom ici">
           Email : 
-        <input type="email" placeholder="Indiquer votre Email ici">
+        <input type="email" name="mail" placeholder="Indiquer votre Email ici">
           Âge : 
-        <input type="number" placeholder="Indiquer votre Âge ici">
+        <input type="number" name="age" placeholder="Indiquer votre Âge ici">
           Sexe : Homme
         <input type="radio" name="sexe" value="homme"> 
         Femme
         <input type="radio" name="sexe" value="femme"> 
         <hr>
         Message :
-        <textarea placeholder="Indiquer votre message ici"></textarea>
+        <textarea name="message" placeholder="Indiquer votre message ici"></textarea>
         <hr>
         <input type="submit" value="Envoyer">
       </form>
     </div>
-    <div id="contact">
-      <h3>
+    <div class="centre">
+      <h2>
         Voici les informations pour me contacter directement :
+      </h2>
+      <h3>
+        Nom :
       </h3>
-      <h4>
-        Nom : 
-      </h4>
-      <h4>
+        <p>
+          JACQUES Tanguy
+        </p>
+      <h3>
         Mail : 
-      </h4>
-      <h4>
+      </h3>
+        <p>
+          MonMailPro@gmail.com
+        </p>
+      <h3>
         Âge : 
-      </h4>
-      <h4>
+      </h3>
+        <p>
+          18 ans
+        </p>
+      <h3>
         Sexe : 
-      </h4>
+      </h3>
+        <p>
+          Homme
+        </p>
     </div>
+  </div>
+  </body>
+</html>

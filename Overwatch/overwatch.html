@@ -1,11 +1,19 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html> <!-- Permet d'indiquer au navigateur que la page est écrite en HTML 5 -->
+<!--
+    Fichier : overwatch.html
+    Rôle : page du jeu vidéo Overwatch
+    Auteur : Tanguy JACQUES - Date : 28/10/2026
+-->
+
+<html lang='fr'> <!-- Permet d'indiquer la langue principale du contenu de la page -->
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
-    <link rel='stylesheet' href='overwatch.css'>
+    <meta charset='utf-8'> <!-- Permet de bien afficher les accents et symboles spéciaux -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Permet l'affichage sur téléphone -->
+    <title>Page du jeu Overwatch</title> <!-- Ceci est le titre de la page -->
+    <link rel='stylesheet' href='overwatch.css'> <!-- Permet de relie ma page HTML à mon fichier CSS -->
 </head>
+
+<body class="Fond">  <!--ceci est le body de la page de Overwatch, il sert à prendre en compte toute la page du site-->
 <div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../1emepage/index.html"> 
     <p>
@@ -25,7 +33,7 @@
   </a>
 </div>
 <div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
-  <a href="../1thématique/thematique.html"> 
+  <a href="../1thematique/thematique.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
         Ma thématique
@@ -33,7 +41,15 @@
     </p>
   </a>
 </div>
-<body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
+<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../Image/image.html"> 
+    <p>
+      <strong> <!-- permet de mettre le texte en gras -->
+        Image du Site
+      </strong>
+    </p>
+  </a>
+</div>
   <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fais tout renter dans un rectangle prédéfini par la class Rectangle -->
     <div class="Titre">
     <h1>
@@ -52,8 +68,10 @@
     <div class="texteV">
       <p>
         <strong>Overwatch</strong> est un jeu d'action en équipe en accès gratuit, qui prend place dans un avenir optimiste et vous réserve des batailles 5c5 au sommet à chaque partie. Incarnez une combattante pour la liberté capable de voyager dans le temps, un DJ aux beats dévastateurs et plus de 40 autres personnages originaux dans des batailles qui vous emmèneront aux quatre coins du monde.
-        <hr color="white">
-        <strong>Overwatch</strong> comporte 9 rangs comportant chacun 5 divisions hors le dernier rang comportant seulement le top 500 étant le plus au rang du jeu comportant seulement 500 places parmi chaque région.
+      </p>
+        <hr>
+      <p>
+        <strong>Overwatch</strong> comporte 9 rangs comportant chacun 5 divisions, le dernier rang comporte seulement le top 500 de chaque région.
       </p>
     </div>
   </div>
@@ -69,19 +87,29 @@
     <div class="texteV">
       <p>
         Les héros et héroïnes du jeu. Que vous préfériez mener la charge, tendre des embuscades ou soutenir votre équipe, vous trouverez forcément un nouveau personnage qui vous plaira. Plongez dans des batailles survoltées avec de tout nouveaux personnages.
-        Chaque personnage fais partie d'une catégorie partant de <strong> Tank, Dégâts à Soutien</strong>.
-        <hr color="white">
+        Chaque personnage fait partie d'une catégorie partant de <strong> Tank, Dégâts à Soutien</strong>.
+      </p>  
+        <hr>
+      <p>
         Catégorie de personnage :
+      </p>  
+        <ul>
+        <li>
         <p>
-          • <strong>Tank</strong> : Les tanks sont là pour encaisser les dégâts et s'attaquer à des positions stratégiques, qu'il s'agisse de groupes d'adversaires ou de points d'étranglement. En tant que tank, c'est à vous de mener la charge !
+          <strong>Tank</strong> : Les tanks sont là pour encaisser les dégâts et s'attaquer à des positions stratégiques, qu'il s'agisse de groupes d'adversaires ou de points d'étranglement. En tant que tank, c'est à vous de mener la charge !
         </p>
+        </li>
+        <li>
         <p>
-          • <strong>Dégâts</strong> : Les spécialistes des dégâts traquent, attaquent et éliminent l'adversaire avec toutes sortes d'outils, de capacités et de styles de jeu. Redoutables, mais fragiles, ces personnages ont besoin de soutien pour survivre.
+          <strong>Dégâts</strong> : Les spécialistes des dégâts traquent, attaquent et éliminent l'adversaire avec toutes sortes d'outils, de capacités et de styles de jeu. Redoutables, mais fragiles, ces personnages ont besoin de soutien pour survivre.
         </p>
+        </li>
+        <li>
         <p>
-          • <strong>Soutien</strong> : Les personnages de soutien assistent leurs partenaires en leur procurant des soins et des boucliers, en augmentant leurs dégâts et en neutralisant les menaces. Votre rôle de soutien vous rend indispensable à la survie de votre équipe.
+          <strong>Soutien</strong> : Les personnages de soutien assistent leurs partenaires en leur procurant des soins et des boucliers, en augmentant leurs dégâts et en neutralisant les menaces. Votre rôle de soutien vous rend indispensable à la survie de votre équipe.
         </p>
-      </p>
+        </li>
+        </ul>
     </div>
   </div>
     <div class="Soustitre">
@@ -96,25 +124,40 @@
     <div class="texteV">
       <p>
         <strong>Overwatch</strong> possède des cartes prenant des environnements inspirés de lieux réels et fictifs du monde entier, conçus pour des affrontements en équipe. Elles se divisent en plusieurs modes de jeu principaux, chacun imposant un objectif tactique différent.
-        <hr color="white">
-        Chaque carte possède plusieurs modes de jeu :
+      </p>  
+        <hr>
       <p>
-          • <strong>Contrôle (KOTH)</strong> : Les deux équipes s'affrontent pour capturer et maintenir une zone centrale jusqu'à 100 %. Ces cartes sont symétriques, ce qui offre une équité parfaite au premier combat.
-        <p>
-          • <strong>Escorte (Convoi)</strong> : L'équipe attaquante doit escorter un convoi d'un point A à un point B en passant par des checkpoints, tandis que les défenseurs essaient de l'en empêcher
-        </p>
-        <p>
-          • <strong>Hybride (Attaque + Escorte)</strong> : Les attaquants doivent d'abord capturer un point A, puis faire avancer un convoi à partir de ce même point. 
-        </p>
-                <p>
-          • <strong>Pression (Push)</strong> : Les deux équipes poussent un robot géant vers le camp adverse; l'équipe qui l'a poussé le plus loin à la fin du temps imparti l'emporte. 
-        </p>
-                <p>
-          • <strong>Point chaud (Flashpoint)</strong> : Des grands espaces où des points de capture successifs s'ouvrent aléatoirement sur la carte.
-        </p>
+        Chaque carte possède plusieurs modes de jeu :
       </p>
-      </p>
+        <ul>
+        <li>
+        <p>
+          <strong>Contrôle (KOTH)</strong> : Les deux équipes s'affrontent pour capturer et maintenir une zone centrale jusqu'à 100 %. Ces cartes sont symétriques, ce qui offre une équité parfaite au premier combat.
+        </p>
+          </li>
+          <li>
+          <p>
+          <strong>Escorte (Convoi)</strong> : L'équipe attaquante doit escorter un convoi d'un point A à un point B en passant par des checkpoints, tandis que les défenseurs essaient de l'en empêcher
+        </p>
+        </li>
+        <li>
+        <p>
+          <strong>Hybride (Attaque + Escorte)</strong> : Les attaquants doivent d'abord capturer un point A, puis faire avancer un convoi à partir de ce même point. 
+        </p>
+        </li>
+        <li>
+         <p>
+          <strong>Pression (Push)</strong> : Les deux équipes poussent un robot géant vers le camp adverse; l'équipe qui l'a poussé le plus loin à la fin du temps imparti l'emporte. 
+        </p>
+        </li>
+        <li>
+          <p>
+          <strong>Point chaud (Flashpoint)</strong> : Des grands espaces où des points de capture successifs s'ouvrent aléatoirement sur la carte.
+        </p>
+        </li>
+        </ul>
     </div>
   </div>
 </div>
+</body>
 </html>

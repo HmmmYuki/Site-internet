@@ -1,3 +1,9 @@
+/*
+    Fichier : dbd.css
+    Rôle : CSS du dbd.html
+    Auteur : Tanguy JACQUES - Date : 26/10/2026
+*/
+
 .Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
     background: linear-gradient(rgb(146, 85, 85), rgb(231, 122, 122)); /* cela permet de mettre un dégradé de couleur */
     margin : 3%;
@@ -5,7 +11,7 @@
     
 }
 
-.Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
+.Fond{ /* Ceci rajoute un fond avec une image venant de Dead by Daylight */
     background-image: url("https://sm.ign.com/ign_fr/cover/d/dead-by-da/dead-by-daylight_kvyu.jpg"); /* ceci sert à rajouter en fond du site une image venant d'une url */
 }
 

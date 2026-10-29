@@ -1,3 +1,9 @@
+/*
+    Fichier : CT.css
+    Rôle : CSS du CT.html
+    Auteur : Tanguy JACQUES - Date : 23/10/2026
+*/
+
 .Rectangle{ /* permet de faire un rectangle pour placer du texte à l’intérieur ou autre */
     background: linear-gradient(orange, rgb(228, 190, 146));
     margin : 3%;
@@ -17,7 +23,7 @@
 
 #formulaire { /* j'ai créé l'id formulaire pour pouvoir mettre un rectangle qui limite la largeur du formulaire à 500 px et le centre.*/
   max-width: 500px;
-  margin : 0 auto;
+  margin : auto;
   text-align: left ;
 }
 

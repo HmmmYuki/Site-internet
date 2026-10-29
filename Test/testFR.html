@@ -1,121 +1,78 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html> <!-- Indique au navigateur que la page est en HTML5 -->
+<!--
+    Fichier : CV_FR.html
+    Rôle : CV en français, le drapeau mène à la version anglaise
+    Auteur : Tanguy JACQUES - Date : 29/10/2026
+-->
+<html lang="fr"> <!-- Langue principale de la page -->
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
-    <link rel='stylesheet' href='testCV.css'>
+    <meta charset="utf-8"> <!-- Affichage correct des accents -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Affichage sur téléphone -->
+    <meta name="description" content="CV de Tanguy Jacques : compétences, expériences, diplômes et loisirs.">
+    <title>Mon CV en français</title> <!-- Titre affiché dans l'onglet -->
+    <link rel="stylesheet" href="testCT.css"> <!-- Relie la page à son fichier CSS -->
 </head>
+<body class="Fond"> <!-- Corps de la page CV, la classe Fond ajoute le dégradé -->
+    <div class="Cpage"> <!-- Bloc de menu : un lien cliquable dans un rectangle (classe réutilisable) -->
+        <a href="../1emepage/index.html"><p><strong>Présentation</strong></p></a>
+    </div>
+    <div class="Cpage">
+        <a href="../Contact/CT.html"><p><strong>Me contacter</strong></p></a>
+    </div>
+    <div class="Cpage">
+        <a href="../1thematique/thematique.html"><p><strong>Ma thématique</strong></p></a>
+    </div>
+    <div class="Cpage">
+        <a href="../image/image.html"><p><strong>Image du site</strong></p></a>
+    </div>
 
-<a href="testEN.html">
-<body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
-<img href="" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-250px-Flag_of_France.svg.png?utm_source=fr.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="MDN Web Docs" />
-</a>
+    <a href="CV_EN.html"> <!-- Drapeau anglais : change la langue du CV -->
+        <img class="drapeau" src="images/drapeau-uk.png" alt="Voir le CV en anglais">
+    </a>
 
+    <div class="Rectangle"> <!-- Rectangle blanc qui contient tout le CV -->
+        <h1>Tanguy JACQUES (18 ans)</h1>
+        <p>57 rue Simone Signoret, appt 55, 80090 Amiens</p>
+        <p>06 31 56 40 78</p>
+        <p><a href="mailto:tanguy.jacques@gmail.com">tanguy.jacques@gmail.com</a></p>
+        <p class="metier">Informaticien</p>
 
-
-
-  <div class="Rectangle">
-    <h3> Tanguy JACQUES (18 ans)
-    </h3>
-    <p>57, rue Simone Signoret. Apt 55
-</p>
-<p>80090 AMIENS.
-</p>
-<p>0631553977</p>
-<p>tanguy.jacques2008@gmail.com</p>
-<h2>
-  <center> 
-      <span style='color: #ff0000; font-family: Arial, Helvetica, sans-serif; font-size: 20px;'> 
-    <span class="underline">
-      Infomaticien
-    </span>
-      </span> 
-  </center> 
-</h2>
-<p>
-    <span class="underline">COMPETENCES : </span>
-</p>
-<center> 
-<table>
-  <tbody>
-    <tr>
-      <th scope="row"><ul>
-        <li>Initier aux réseaux électriques, climatiques et de communication des bâtiments.</li>
-        <li>Initier au fonctionnement des réseaux informatiques.
-</li>
-        <li>Lire, interpréter et modifier un schéma simple.</li>
-      </ul></th>
-      <td>
+        <h2>Compétences</h2>
         <ul>
-          <li>Installer un ordinateur.
-</li>
-          <li>En cours d'apprentissage HTML, CSS, Linux, Arduino et GitHub
-</li>
-<li>Initier à Word, Excel et PowerPoint.
-  <li>Initier au logiciel 3D : SketchUp et Scratch.
-</li>
-</li>
-</table>
-</center>
-<center> 
-<h2> <span style="color: rgb(36, 112, 199);"><span class="underline"> EXPERIENCES PROFESSIONNELLES :</span></span></h2>
-</center> 
-<div class="December">
-<p>Décembre 2025, Mai 2025 et Décembre 2023 :<strong> stagiaire électricien</strong> chez EEHF - Camon (9 semaines);
-</p>
-</div>
-<div class="Space">
-<p>Du 13 Janvier au 7 Février 2025:<strong> stagiaire électricien</strong> chez Iserba - Camon.
-</p>
-</div>
-<div class="December">
-<p>Du 10 au 28 Juin 2024:<strong> stagiaire électricien</strong> chez Amiens métropole - Amiens.
-</p>
-<p>Du 21 au 25 Novembre 2022 : <strong>stagiaire informaticien </strong> à la DSI (Direction Système Information) - Amiens.
-</p>
-</div>
-<center> 
-<h3> <span style="color: rgb(36, 112, 199);"><span class="underline"> DIPLOMES ET FORMATIONS :</span></span></h3>
-</center> 
-<p>2023/2026 : <strong>Bac professionnel MELEC</strong> (Métiers de l'électricité et de ses environnements connectés)
-au Lycée la Providence - Amiens</p>
-<p>Janvier 2026: <strong>Attestation PIX</strong>, score 445 - « La Providence » - Amiens.
-</p>
-<p>2022 /2023: <strong>DNB 3ème année collège « classe numérique »</strong> - « La Providence » - Amiens.</p>
-<p>Mars 2024 : <strong>SST</strong> (sauveteur secouriste du travail) - « La Providence » - Amiens.
-</p>
-<p>Avril 2023 : <strong> Attestation PIX</strong>, score 135 - « La Providence » - Amiens.</p>
-<p>Session 2023 : <strong>ASSR2</strong> (Attestation scolaire de sécurité routière niveau 2) - « La Providence » - Amiens.</p>
-<center> 
-<h3> <span style="color: rgb(36, 112, 199);"><span class="underline"> INFORMATIONS COMPLEMENTAIRES :
-</span></span></h3>
-</center> 
-<p><strong>Anglais</strong> : B1.
-</p>
-<center> 
-<h3> <span style="color: rgb(36, 112, 199);"><span class="underline"> LOISIRS ET CENTRES D'INTERETS :
-</span></span></h3>
-</center> 
-<table>
-  <ul>
-    <li>
-      Fondateur junior de l'association « Petits Pas 80 », créée en 2014. Dont les objectifs sont l'écologie, la citoyenneté et l'esprit entreprenariat.
-    </li>
-    <li>
-    Ski, Aviron, Boxe, gaming, lecture manga, cinéma…
-    </li>
-    <li>
-      <strong>Boxe française</strong> - « Halles des sports de Simone Signoret » - Amiens.
-    </li>
-    <li>
-      <strong>Formation Aviron</strong> « niveau compétition » - « Club nautique d'Abbeville » - Abbeville.
-    </li>
-    <li>
-      <strong>Jiujitsu</strong> - « Halles des sports de Simone Signoret » - Amiens.
-    </li>
-  </ul>
-</table>
+            <li>Initiation aux réseaux électriques, climatiques et de communication des bâtiments</li>
+            <li>Initiation au fonctionnement des réseaux informatiques</li>
+            <li>Lecture, interprétation et modification d'un schéma simple</li>
+            <li>Installation d'un ordinateur</li>
+            <li>En cours d'apprentissage : HTML, CSS, Linux, Arduino et GitHub</li>
+            <li>Initiation à Word, Excel et PowerPoint</li>
+            <li>Initiation à SketchUp (3D) et à Scratch (programmation)</li>
+        </ul>
+
+        <h2>Expériences professionnelles</h2>
+        <p>Décembre 2025, mai 2025 et décembre 2023 : <strong>stagiaire électricien</strong> chez EEHF - Camon (9 semaines).</p>
+        <p>Du 13 janvier au 7 février 2025 : <strong>stagiaire électricien</strong> chez Iserba - Camon.</p>
+        <p>Du 10 au 28 juin 2024 : <strong>stagiaire électricien</strong> chez Amiens Métropole - Amiens.</p>
+        <p>Du 21 au 25 novembre 2022 : <strong>stagiaire informaticien</strong> à la DSI (Direction des systèmes d'information) - Amiens.</p>
+
+        <h2>Diplômes et formations</h2>
+        <p>2023/2026 : <strong>Bac professionnel MELEC</strong> (Métiers de l'électricité et de ses environnements connectés) au lycée La Providence - Amiens.</p>
+        <p>Janvier 2026 : <strong>Attestation PIX</strong>, score 445 - La Providence - Amiens.</p>
+        <p>Mars 2024 : <strong>SST</strong> (sauveteur secouriste du travail) - La Providence - Amiens.</p>
+        <p>Avril 2023 : <strong>Attestation PIX</strong>, score 135 - La Providence - Amiens.</p>
+        <p>Session 2023 : <strong>ASSR2</strong> (attestation scolaire de sécurité routière niveau 2) - La Providence - Amiens.</p>
+        <p>2022/2023 : <strong>DNB</strong>, classe de 3e « classe numérique » - La Providence - Amiens.</p>
+
+        <h2>Informations complémentaires</h2>
+        <p><strong>Anglais</strong> : B1.</p>
+
+        <h2>Loisirs et centres d'intérêt</h2>
+        <ul>
+            <li>Fondateur junior de l'association « Petits Pas 80 », créée en 2014, dont les objectifs sont l'écologie, la citoyenneté et l'entrepreneuriat.</li>
+            <li>Ski, gaming, lecture de mangas, cinéma…</li>
+            <li><strong>Boxe française</strong> - Halle des sports Simone Signoret - Amiens.</li>
+            <li><strong>Aviron</strong>, formation « niveau compétition » - Club nautique d'Abbeville - Abbeville.</li>
+            <li><strong>Jiu-jitsu</strong> - Halle des sports Simone Signoret - Amiens.</li>
+        </ul>
+    </div> <!-- fin de .Rectangle -->
 </body>
-</div>
 </html>

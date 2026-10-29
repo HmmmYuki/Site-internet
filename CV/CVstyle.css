@@ -1,7 +1,7 @@
-.Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
+.Rectangle{ /* permet de faire un rectangle pour placer du texte à l’intérieur ou autre */
     background-color: #ffffff;
     position: relative;
-    padding-bottom: 100%;
+    padding: 3%;
     margin : 3%;
 }
 
@@ -9,56 +9,17 @@
     background: linear-gradient(orange, rgb(228, 190, 146));
 }
 
-img {
-  display: text; /* sert à faire qu'il soit compter comme un texte */
-  margin-left: 45%; /* sert à répartir l'image dans un espace choisi */
-  position : relative; /* sert à faire que l'image soit positionné par rapport à son parent */
-  width: 10%; /* sert à augmenter la taille de l'image */
+.drapeau {
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: 10px auto;
 }
 
-.underline {
+.underline { /* Permet de souligner le texte */
   text-decoration: underline;
 }
-table {
-  border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-}
 
-caption {
-  caption-side: bottom;
-  padding: 10px;
-  font-weight: bold;
-}
-
-thead,
-tfoot {
-  background-color: rgb(228 240 245);
-}
-
-th,
-td {
-  border: 1px solid rgb(160 160 160);
-  padding: 8px 10px;
-}
-
-td:last-of-type {
-  text-align: center;
-}
-
-tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
-}
-
-tfoot th {
-  text-align: right;
-}
-
-tfoot td {
-  font-weight: bold;
-}
 
 .Cpage { /* j'ai créé la class Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal; cela peut être réutilisable */
   background-color: #e96c06e8;
@@ -66,4 +27,22 @@ tfoot td {
   margin-right: 90%;
   padding: 10px;
   text-align: center;
+}
+
+.centre { /* cette classe permet de centre le texte et les images */
+  text-align: center;
+}
+
+table { /* Permet de centrer le tableau */
+  margin: auto;
+}
+
+h1 { /* permet de faire que tout les h1 est cette couleur est soit souligné */
+  color: #ec0404e8;
+  text-decoration: underline;
+}
+
+h2 { /* permet de faire que tout les h2 est cette couleur est soit souligné */
+  color: rgb(36, 112, 199);
+  text-decoration: underline;
 }

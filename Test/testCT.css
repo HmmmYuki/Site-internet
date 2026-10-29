@@ -1,26 +1,43 @@
-.Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
+/* Rectangle blanc principal : contient tout le CV */
+.Rectangle {
+    background-color: #ffffff;
+    margin: 3%;
+    padding: 3%;
+}
+
+/* Fond de page : dégradé orange */
+.Fond {
     background: linear-gradient(orange, rgb(228, 190, 146));
-    position: relative;
-    padding-bottom: 100%;
-    margin : 3%;
 }
 
-.Fond{ /* Ceci rajoute un fond avec un dégradé de couleur sur la page */
-    background: linear-gradient(orange, rgb(180, 15, 15));
+/* Rectangle de menu, réutilisable */
+.Cpage {
+    background-color: #e96c06e8;
+    display: table-cell; /* Les liens se placent côte à côte, comme des cellules */
+    padding: 10px;
+    text-align: center;
 }
 
-.Cpage { /* j'ai créé la class Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal; cela peut être réutilisable */
-  background-color: #e96c06e8;
-  display: table-cell; /* cela permet de faire que le rectangle soit compter comme la cellule d'un tableau */
-  margin-right: 90%;
-  padding: 10px;
-  text-align: center;
+/* Drapeau : petit, centré, cliquable pour changer de langue */
+.drapeau {
+    display: block;
+    width: 40px;
+    height: auto;
+    margin: 10px auto;
 }
 
-#formulaire { /* j'ai créé la class formulaire pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal; cela peut être réutilisable */
-  display: table-caption;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 800px;
-  padding-top: 0px;
+/* Métier : rouge, souligné, centré */
+.metier {
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Titres de section : bleus, soulignés, centrés */
+.Rectangle h2 {
+    color: rgb(36, 112, 199);
+    text-align: center;
+    text-decoration: underline;
 }

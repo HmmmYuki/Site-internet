@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html> <!-- Permet d'indiquer au navigateur que la page est écrite en HTML 5 -->
+<!--
+    Fichier : CV_FR.html
+    Rôle : page du CV en anglais
+    Auteur : Tanguy JACQUES - Date : 22/10/2026
+-->
+
+<html lang='en'> <!-- Permet d'indiquer la langue principale du contenu de la page -->
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
-    <link rel='stylesheet' href='CVstyle.css'>
+    <meta charset='utf-8'> <!-- Permet de bien afficher les accents et symboles spéciaux -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Permet l'affichage sur téléphone -->
+    <title>Page du CV en Anglais</title> <!-- Ceci est le titre de la page -->
+    <link rel='stylesheet' href='CVstyle.css'> <!-- Permet de relier ma page HTML à mon fichier CSS -->
 </head>
-<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+<div class="Cpage">  <!-- La div comportant la classe "Cpage" permet d'utiliser la classe Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../1emepage/index.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
@@ -15,7 +21,7 @@
     </p>
   </a>
 </div>
-<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+<div class="Cpage"> <!-- La div comportant la classe "Cpage" permet d'utiliser la classe Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../Contact/CT.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
@@ -24,8 +30,8 @@
     </p>
   </a>
 </div>
-<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
-  <a href="../1thématique/thematique.html"> 
+<div class="Cpage"> <!-- La div comportant la classe "Cpage" permet d'utiliser la classe Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../1thematique/thematique.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
         Ma thématique
@@ -33,42 +39,46 @@
     </p>
   </a>
 </div>
+<div class="Cpage">  <!-- La div comportant la classe "Cpage" permet d'utiliser la classe Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../Image/image.html"> 
+    <p>
+      <strong> <!-- permet de mettre le texte en gras -->
+        Image du Site
+      </strong>
+    </p>
+  </a>
+</div>
 <body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
   <a href="CV_FR.html">  <!--Ceci est le lien pour changer la langue du CV, il permet de passer du français à l'anglais et inversement; cela rend le drapeau cliquable pour changer la langue du CV-->
-<img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-250px-Flag_of_France.svg.png?utm_source=fr.wikipedia.org&utm_campaign=parser&utm_content=thumbnail
-" alt="Montre le drapeau français permettant de changer la langue du CV" > <!-- "img" est le lien pour l'image du drapeau français ; il y a aussi "alt" qui permet si l'image ne s'affiche pas, d'afficher le texte mis entre parenthéses. -->
+<img class="drapeau" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-250px-Flag_of_France.svg.png?utm_source=fr.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Montre le drapeau français permettant de changer la langue du CV" > <!-- "img" est le lien pour l'image du drapeau français ; il y a aussi "alt" qui permet si l'image ne s'affiche pas, d'afficher le texte mis entre parenthèses. -->
 </a>
-  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fais tout renter dans un rectangle prédéfini par la class Rectangle -->
+  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fait tout rentrer dans un rectangle prédéfini par la classe Rectangle -->
   <h3> 
     Tanguy JACQUES (18 years old)
   </h3>
   <p>
-    57, rue Simone Signoret. Apt 55
+    57, rue Crémieux.
   </p>
   <p>
-    80090 AMIENS.
+    75 Paris.
   </p>
   <p>
-    0631553977
+    0631564078
   </p>
   <p>
-    tanguy.jacques2008@gmail.com
+    MonMailPro@gmail.com
   </p>
-  <h2>
-  <center> 
-    <span style='color: #ff0000; font-family: Arial, Helvetica, sans-serif; font-size: 20px;'> 
-      <span class="underline">
+  <h1>
+  <div class="centre">  
         IT TECHNICIAN
-      </span>
-    </span> 
-  </center> 
-  </h2>
-  <p>
-    <span class="underline">
+  </div> 
+  </h1>
+      <div class="underline">
+    <p>
       SKILLS : 
-    </span>
-  </p>
-  <center> 
+    </p>
+    </div>
+  <div class="centre"> 
     <table>
       <tbody>
         <tr>
@@ -101,52 +111,43 @@
           <li>
             Introduction to 3D software: SketchUp and Scratch.
           </li>
+        </ul>
+        </td>
+        </tr>
+      </tbody>
+      
     </table>
-  </center>
-  <center> 
+  </div>
+  <div class="centre">  
     <h2> 
-      <span style="color: rgb(36, 112, 199);">
-        <span class="underline"> 
           Personal Experience :
-        </span>
-      </span>
     </h2>
-  </center> 
-  <div class="December">
+  </div> 
     <p>
       December 2025, May 2025 and December 2023: <strong> electrician intern</strong> EEHF - Camon (9 weeks);
     </p>
-  </div>
-  <div class="Space">
     <p>
       From 13 January to 7 February 2025:<strong> electrician intern</strong> at Iserba - Camon.
     </p>
-  </div>
-  <div class="December">
     <p>
-      From 10 to 28 June 2024:<strong> electrician intern</strong> at Amiens métropole - Amiens.
+      From 10 to 28 June 2024:<strong> electrician intern</strong> at Amiens Métropole - Amiens.
     </p>
     <p>
       From 21 to 25 November 2022: <strong>IT intern</strong> at the DSI (Information Systems Department) - Amiens.
     </p>
-  </div>
-  <center> 
-    <h3> 
-      <span style="color: rgb(36, 112, 199);">
-        <span class="underline"> 
+  <div class="centre"> 
+    <h2> 
         EDUCATION AND QUALIFICATIONS :
-        </span>
-      </span>
-    </h3>
-  </center> 
+    </h2>
+  </div> 
   <p>
-    2023/2026 : <strong>Vocational Baccalaureate MELEC</strong> (Electrical trades and connected environments) at Lycée la Providence - Amiens
+    2023/2026 : <strong>Vocational Baccalaureate MELEC</strong> (Electrical trades and connected environments) at Lycée La Providence - Amiens
   </p>
   <p>
     January 2026 : <strong>PIX certificate</strong>, score 445 - « La Providence » - Amiens.
   </p>
   <p>
-    2022 /2023: <strong>DNB, 3rd year of collège, “digital class”</strong> - « La Providence » - Amiens.
+    2022/2023: <strong>DNB, 3rd year of collège, “digital class”</strong> - « La Providence » - Amiens.
   </p>
   <p>
     March 2024 : <strong>SST</strong> (workplace first-aid responder) - « La Providence » - Amiens.
@@ -157,49 +158,36 @@
   <p>
     2023 session : <strong>ASSR2</strong> (School Road Safety Certificate, Level 2) - « La Providence » - Amiens.
   </p>
-  <center> 
-    <h3> 
-      <span style="color: rgb(36, 112, 199);">
-        <span class="underline"> 
+<div class="centre"> 
+    <h2> 
           ADDITIONAL INFORMATION :
-        </span>
-      </span>
-    </h3>
-  </center> 
+    </h2>
+  </div> 
   <p>
     <strong>English</strong> : B1.
   </p>
-  <center> 
-    <h3> 
-      <span style="color: rgb(36, 112, 199);">
-        <span class="underline"> 
-          HOBBIES AND INTERESTS :
-        </span>
-      </span>
-    </h3>
-  </center> 
-  <table>
-    <ul>
-      <li>
+  <div class="centre"> 
+    <h2> 
+      HOBBIES AND INTERESTS :
+    </h2>
+  </div> 
+<p>
         Junior founder of the association « Petits Pas 80 », created in 2014. Its objectives are ecology, civic engagement and
         an entrepreneurial spirit.
-      </li>
-      <li>
+</p>
+<p>
         Skiing, rowing, boxing, gaming, manga reading, cinema…
-      </li>
-      <li>
-        <strong>French boxing</strong> - « Halles des sports de Simone Signoret » - Amiens.
-      </li>
-      <li>
+</p>
+<p>
+        <strong>French boxing</strong> - « Halle des sports de Simone Signoret » - Amiens.
+</p>
+<p>
         <strong>Rowing training</strong> “competition level” - « Club nautique d'Abbeville » - Abbeville.
-      </li>
-      <li>
-        <strong>Jiujitsu</strong> - « Halles des sports de Simone Signoret » - Amiens.
-      </li>
-    </ul>
-  </table>
-</body>
-
+</p>
+<p>
+        <strong>Jiu-jitsu</strong> - « Halle des sports de Simone Signoret » - Amiens.
+</p>
 
 </div>
+</body>
 </html>

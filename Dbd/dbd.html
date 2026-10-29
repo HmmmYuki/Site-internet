@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html> <!-- Permet d'indiquer au navigateur que la page est écrite en HTML 5 -->
+<!--
+    Fichier : dbd.html
+    Rôle : page du jeu vidéo Dead by Daylight
+    Auteur : Tanguy JACQUES - Date : 26/10/2026
+-->
+
+<html lang='fr'> <!-- Permet d'indiquer la langue principale du contenu de la page -->
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
-    <link rel='stylesheet' href='dbd.css'>
+    <meta charset='utf-8'> <!-- Permet de bien afficher les accents et symboles spéciaux -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Permet l'affichage sur téléphone -->
+    <title>Page du jeu DBD</title> <!-- Ceci est le titre de la page -->
+    <link rel='stylesheet' href='dbd.css'> <!-- Permet de relier ma page HTML à mon fichier CSS -->
 </head>
-<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+
+<body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
+<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../1emepage/index.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
@@ -15,7 +23,7 @@
     </p>
   </a>
 </div>
-<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../Contact/CT.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
@@ -24,8 +32,8 @@
     </p>
   </a>
 </div>
-<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
-  <a href="../1thématique/thematique.html"> 
+<div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../1thematique/thematique.html"> 
     <p>
       <strong> <!-- permet de mettre le texte en gras -->
         Ma thématique
@@ -33,16 +41,24 @@
     </p>
   </a>
 </div>
-<body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
-  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fais tout renter dans un rectangle prédéfini par la class Rectangle -->
+<div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
+  <a href="../Image/image.html"> 
+    <p>
+      <strong> <!-- permet de mettre le texte en gras -->
+        Image du Site
+      </strong>
+    </p>
+  </a>
+</div>
+  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fait tout renter dans un rectangle prédéfini par la class Rectangle -->
     <div class="Titre">
     <h1>
-    Dead by daylight
+    Dead by Daylight
     </h1>
   </div>
     <div class="Soustitre">
     <h2>
-      Qu'est-ce que Dead by daylight ?
+      Qu'est-ce que Dead by Daylight ?
     </h2>
   </div>
   <div class="Cac">
@@ -51,9 +67,11 @@
     </div>
     <div class="texteV">
       <p>
-        <strong>Dead by daylight</strong> est un jeu vidéo d'horreur et de survie multijoueur asymétrique développé et édité par Behaviour Interactive. Le concept du jeu est uUne partie réunit 5 joueurs en ligne dans une carte fermée, il y a 4 Survivants et leur but est de coopérer pour réparer 5 générateurs électriques afin d'alimenter et d'ouvrir les portes de sortie pour s'échapper. Puis 1 Tueur avec comme objectif est de traquer, attraper et sacrifier les quatre survivants en les accrochant à des crochets rituels pour les livrer à une entité maléfique.
-        <hr color="white">
-        Le système de prestige de <strong>Dead by daylight</strong> permet de réinitialiser le niveau d'un personnage (tueur ou survivant) de 50 à 1 tout en conservant son inventaire (objets, accessoires, offrandes et compétences). Il monte jusqu'au niveau 100 maximum.
+        <strong>Dead by Daylight</strong> est un jeu vidéo d'horreur et de survie multijoueur asymétrique développé et édité par Behaviour Interactive. Le concept du jeu est une partie réunit 5 joueurs en ligne dans une carte fermée, il y a 4 Survivants et leur but est de coopérer pour réparer 5 générateurs électriques afin d'alimenter et d'ouvrir les portes de sortie pour s'échapper. Puis 1 Tueur dont l'objectif est de traquer, attraper et sacrifier les quatre survivants en les accrochant à des crochets rituels pour les livrer à une entité maléfique.
+      </p>
+        <hr>
+      <p>
+        Le système de prestige de <strong>Dead by Daylight</strong> permet de réinitialiser le niveau d'un personnage (tueur ou survivant) de 50 à 1 tout en conservant son inventaire (objets, accessoires, offrandes et compétences). Il monte jusqu'au niveau 100 maximum.
       </p>
     </div>
   </div>
@@ -68,26 +86,46 @@
     </div>
     <div class="texteV">
       <p>
-        <strong>Dead by daylight</strong> est un jeu multijoueur asymétrique (1 contre 4) dont le but dépend du camp que vous choisissez d'incarner : :
-        <hr color="white">
+        <strong>Dead by Daylight</strong> est un jeu multijoueur asymétrique (1 contre 4) dont le but dépend du camp que vous choisissez d'incarner :
+        <hr>
         Le but des Survivants (4 joueurs) :
+        <ul>
+          <li>
         <p>
-          • <strong>Réparer 5 générateurs</strong> :Ils doivent coopérer pour remettre en marche cinq générateurs éparpillés sur la carte afin d'alimenter les portes de sortie.
-        <p>
-          • <strong>S'échapper </strong> : Ouvrir l'une des portes électriques pour fuir la zone, ou utiliser la trappe si l'on est le dernier survivant en vie.
-        <p>
-          • <strong>Survivre </strong> : Éviter le tueur en utilisant des palettes, des fenêtres, des cachettes ou en se secourant mutuellement.
-      </p>
+          <strong>Réparer 5 générateurs</strong> : Ils doivent coopérer pour remettre en marche cinq générateurs éparpillés sur la carte afin d'alimenter les portes de sortie.
+        </p>
+        </li>
+        <li>
+          <p>
+          <strong>S'échapper </strong> : Ouvrir l'une des portes électriques pour fuir la zone, ou utiliser la trappe si l'on est le dernier survivant en vie.
+          </p>
+        </li>
+        <li>
+          <p>
+          <strong>Survivre </strong> : Éviter le tueur en utilisant des palettes, des fenêtres, des cachettes ou en se secourant mutuellement.
+        </p>
+        </li>
+      </ul>
 
         Le but du Tueur (1 joueur) :
+        <ul>
+          <li>
           <p>
-          • <strong>Traquer et attraper</strong> : Chasser les quatre survivants à travers la carte.
-        <p>
-          • <strong>Sacrifier</strong> : Placer les survivants sur des crochets pour les sacrifier à une entité maléfique (après avoir été accroché trois fois, un survivant est éliminé).
-      </p>
-      <p>
-          • <strong>Empêcher la fuite</strong> : Saboter les générateurs et contrer l'équipe adverse pour qu'aucun survivant ne s'échappe.
-    </div>
+          <strong>Traquer et attraper</strong> : Chasser les quatre survivants à travers la carte.
+          </p>
+          </li>
+          <li>
+          <p>
+          <strong>Sacrifier</strong> : Placer les survivants sur des crochets pour les sacrifier à une entité maléfique (après avoir été accroché trois fois, un survivant est éliminé).
+          </p>
+          </li>
+          <li>
+          <p>
+          <strong>Empêcher la fuite</strong> : Saboter les générateurs et contrer l'équipe adverse pour qu'aucun survivant ne s'échappe.
+        </p>
+      </li>
+      </ul>
+      </div>
   </div>
     <div class="Soustitre">
     <h2>
@@ -96,23 +134,32 @@
   </div>
   <div class="Cac">
     <div class="img">
-      <img src="https://deadbydaylight.com/static/9a534cca78f3b0b4edb9f446573e19b3/e5774/nav_map_image_0c895f174b.jpg" alt="2 personnages du jeu Dead by daylight">
+      <img src="https://deadbydaylight.com/static/9a534cca78f3b0b4edb9f446573e19b3/e5774/nav_map_image_0c895f174b.jpg" alt="2 personnages du jeu Dead by Daylight">
     </div>
     <div class="texteV">
       <p>
-        Dans <strong>Dead by daylight</strong> les cartes désigne les arènes de jeu (les niveaux où se déroulent les affrontements entre survivants et tueurs).
-        <hr color="white">
+        Dans <strong>Dead by Daylight</strong> les cartes désignent les arènes de jeu (les niveaux où se déroulent les affrontements entre survivants et tueurs).
+        <hr>
         Les arènes de jeu :
+        <ul>
+        <li>
       <p>
-          • <strong>Nombre </strong> : Le jeu compte plus de 45 cartes jouables réparties à travers une vingtaine de royaumes thématiques (comme Propriété MacMillan, Autohaven Wreckers, ou de nouvelles cartes comme l'Illusion du Farceur ou l'Épave du Nostromo).
-        <p>
-          • <strong>Génération semi-procédurale</strong> : L'agencement des obstacles, des palettes, des fenêtres et des générateurs change à chaque partie selon des règles de disposition (tuiles).
-        </p>
-        <p>
-          • <strong>Taille</strong> : Les cartes varient en superficie, allant de petites cartes intérieures (comme le Théâtre de Traitement) à de vastes zones extérieures (comme La Maison Maternelle).
-        </p>
+          <strong>Nombre </strong> : Le jeu compte plus de 45 cartes jouables réparties à travers une vingtaine de royaumes thématiques (comme Propriété MacMillan, Autohaven Wreckers, ou de nouvelles cartes comme l'Illusion du Farceur ou l'Épave du Nostromo).
       </p>
+      </li>
+          <li>
+          <p>
+          <strong>Génération semi-procédurale</strong> : L'agencement des obstacles, des palettes, des fenêtres et des générateurs change à chaque partie selon des règles de disposition (tuiles).
+        </p>
+        </li>
+        <li>
+        <p>
+          <strong>Taille</strong> : Les cartes varient en superficie, allant de petites cartes intérieures (comme le Théâtre de Traitement) à de vastes zones extérieures (comme La Maison Maternelle).
+        </p>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
+</body>
 </html>

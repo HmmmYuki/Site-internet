@@ -1,3 +1,9 @@
+/*
+    Fichier : Valorant.css
+    Rôle : CSS du Valorant.html
+    Auteur : Tanguy JACQUES - Date : 28/10/2026
+*/
+
 .Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
     background: linear-gradient(rgb(233, 58, 46), rgb(230, 83, 83)); /* cela permet de mettre un fond d'image avec un dégradé de couleur */
     margin : 3%;
@@ -5,7 +11,7 @@
 }
 
 .Fond{ /* Ceci rajoute un fond avec une image venant de Valorant */
-    background-image: url("https://m.media-amazon.com/images/M/MV5BZmQwMjQ2ZTUtZmM5MC00MTdkLWIxYzgtODU1NzQ4Zjg4NmMxXkEyXkFqcGc@._V1_.jpg"); /* ceci ser à rajouter en fond du site une image venant d'une url */
+    background-image: url("https://m.media-amazon.com/images/M/MV5BZmQwMjQ2ZTUtZmM5MC00MTdkLWIxYzgtODU1NzQ4Zjg4NmMxXkEyXkFqcGc@._V1_.jpg"); /* ceci sert à rajouter en fond du site une image venant d'une url */
 }
 
 .Cpage { /* j'ai créé la classe Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal ; cela peut être réutilisable */

@@ -1,11 +1,17 @@
+/*
+    Fichier : RL.css
+    Rôle : CSS du RL.html
+    Auteur : Tanguy JACQUES - Date : 28/10/2026
+*/
+
 .Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
     background: linear-gradient(rgb(99, 151, 247), rgb(165, 214, 243)); /* cela permet de mettre un fond d'image avec un dégradé de couleur */
     margin : 3%;
     padding : 3%;
 }
 
-.Fond{ /* Ceci rajoute un fond avec une image venant de Rocket league */
-    background-image: url("https://store-images.s-microsoft.com/image/apps.6066.65187692735347017.3990a461-2db8-41ef-8bf8-33d50ff2e82a.7bb9a856-df77-4e8b-a605-7863390a7aa0"); /* ceci ser à rajouter en fond du site une image venant d'une url */
+.Fond{ /* Ceci rajoute un fond avec une image venant de Rocket League */
+    background-image: url("https://store-images.s-microsoft.com/image/apps.6066.65187692735347017.3990a461-2db8-41ef-8bf8-33d50ff2e82a.7bb9a856-df77-4e8b-a605-7863390a7aa0"); /* ceci sert à rajouter en fond du site une image venant d'une url */
 }
 
 .Cpage { /* j'ai créé la classe Cpage pour pouvoir mettre un rectangle avec un fond de couleur et de le placer à l'intérieur du rectangle principal ; cela peut être réutilisable */
@@ -13,10 +19,6 @@
   display: table-cell; /* cela permet de faire que le rectangle soit compté comme la cellule d'un tableau */
   padding: 10px;
   text-align: center; /* permet de mettre le texte au milieu de l'image */
-}
-
-.underline {
-  text-decoration: underline; /* permet de souligner le texte */
 }
 
 .Titre {
@@ -32,9 +34,10 @@
 
 .Cac {
   display : flex; /* cela permet de placer côte à côte les choses, à la place de les empiler */
+  flex-wrap: wrap; /* Permet sur mobile de passer le texte sous l’image */
 }
 
-.img {
+.img img{
   margin: 10px; /* ça permet de créer un espace autour de l'image */
   height : auto; /* ça permet de gérer la taille de l'image */
   max-width: 100%;

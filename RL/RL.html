@@ -1,4 +1,10 @@
 <!DOCTYPE html> <!-- Permet d'indiquer au navigateur que la page est écrite en HTML 5 -->
+<!--
+    Fichier : RL.html
+    Rôle : page du jeu vidéo Rocket league
+    Auteur : Tanguy JACQUES - Date : 28/10/2026
+-->
+
 <html lang='fr'> <!-- Permet d'indiquer la langue principale du contenu de la page -->
 <head>
     <meta charset='utf-8'> <!-- Permet de bien afficher les accents et symboles spéciaux -->
@@ -6,6 +12,8 @@
     <title>Page du jeu Rocket League</title> <!-- Ceci est le titre de la page -->
     <link rel='stylesheet' href='RL.css'> <!-- Permet de relie ma page HTML à mon fichier CSS -->
 </head>
+
+<body class="Fond">  <!--ceci est le body de ma page du jeu vidéo Rocket League, il sert à prendre en compte toute la page du site-->
 <div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../1emepage/index.html"> 
     <p>
@@ -18,7 +26,7 @@
 <div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../Contact/CT.html"> 
     <p>
-      <strong> <!-- permet de mettre le texte en gras -->
+      <strong>
         Me contacter
       </strong>
     </p>
@@ -27,7 +35,7 @@
 <div class="Cpage"> <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créer via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../1thematique/thematique.html"> 
     <p>
-      <strong> <!-- permet de mettre le texte en gras -->
+      <strong> 
         Ma thématique
       </strong>
     </p>
@@ -36,19 +44,16 @@
 <div class="Cpage">  <!-- La div comportant la class "Cpage" permet d'utiliser la class Cpage avec à l'intérieur le lien cliquable créé via le href, utilisable en cliquant sur le texte mis dans la balise p-->
   <a href="../Image/image.html"> 
     <p>
-      <strong> <!-- permet de mettre le texte en gras -->
+      <strong>
         Image du Site
       </strong>
     </p>
   </a>
 </div>
-<body class="Fond">  <!--ceci est le body de ma première page, il sert à prendre en compte toute la page du site-->
-  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du CV, cette div fais tout renter dans un rectangle prédéfini par la class Rectangle -->
-    <div class="Titre">
-    <h1>
+  <div class="Rectangle"> <!-- à l'intérieur de cette div se trouve le texte du jeu vidéo Rocket League, cette div fais tout renter dans un rectangle prédéfini par la class Rectangle -->
+    <h1 class="Titre">
     Rocket League
     </h1>
-  </div>
     <div class="Soustitre">
     <h2>
       Qu'est-ce que Rocket League ?
@@ -58,19 +63,17 @@
     <div class="img">
       <img src="https://images.steamusercontent.com/ugc/1683743446101507851/375355247D8B3E4C494A79A611B23B750D9A4E3C/" alt="Image représentant tous les rangs de Rocket League">
     </div>
-    <div class="texteV">
-      <p>
-        <strong>Rocket League</strong>  est un jeu vidéo en ligne qui mélange du football et de la conduite de voitures. Le but est un jeu ou Deux équipes (de 1 contre 1 jusqu'à 4 contre 4) s'affrontent pendant des matchs de 5 minutes pour marquer le plus de but dans la cage adverse. Les joueurs conduisent des voitures personnalisables capables de rouler à toute vitesse, d'utiliser du boost (accélération), de sauter, de voler dans les airs et de rouler sur les murs.
-        <hr color="white">
-        <strong>Rocket League</strong> Le système de classement de Rocket League fonctionne avec 8 grands paliers principaux, divisés en sous-rangs et en divisions, le tout contrôlé par un score invisible appelé MMR (Matchmaking Rating).
+      <p class="texteV">
+        <strong>Rocket League</strong> est un jeu vidéo en ligne qui mélange du football et de la conduite de voitures. Le but est un jeu ou Deux équipes (de 1 contre 1 jusqu'à 4 contre 4) s'affrontent pendant des matchs de 5 minutes pour marquer le plus de but dans la cage adverse. Les joueurs conduisent des voitures personnalisables capables de rouler à toute vitesse, d'utiliser du boost (accélération), de sauter, de voler dans les airs et de rouler sur les murs.
       </p>
-    </div>
+      <hr>
+      <p class="texteV"> 
+        <strong>Rocket League</strong> a un système de classement de qui fonctionne avec 8 grands paliers principaux, divisés en sous-rangs et en divisions, le tout contrôlé par un score invisible appelé MMR (Matchmaking Rating).
+      </p>
   </div>
-  <div class="Soustitre">
-    <h2>
+    <h2 class="Soustitre">
       Les modes de jeu
     </h2>
-  </div>
   <div class="Cac">
     <div class="img">
       <img src="https://game-guide.fr/wp-content/uploads/2016/08/rocket_league_rumble-1024x576.jpg" alt="Image représentant l'un des modes Extra">
@@ -78,30 +81,52 @@
     <div class="texteV">
       <p>
         Rocket League à plusieurs modes de jeu jouable partant des grands classique, au modes un peu plus "extra" :
-        <hr color="white">
+        <hr>
         Modes de jeu :
-        <p>
-          • <strong>1v1 (Duel)</strong> : Match en tête-à-tête idéal pour travailler la prise de décision et les mécaniques individuelles.
-        <p>
-          • <strong>2v2 (Doubles)</strong> : Le mode le plus populaire, équilibré entre le jeu d'équipe et la liberté de mouvement.
-        <p>
-          • <strong>3v3 (Standard / Compétitif & RLCS)</strong> : Le format officiel esport, basé sur le positionnement et les rotations d'équipe.
-      </p>
-      <p>
-          • <strong>4v4 (Chaos)</strong> : Un mode plus grand et plus chaotique avec quatre joueurs par équipe.
-        </p>
+        <ul>
+          <li>
 
+          <strong>1v1 (Duel)</strong> : Match en tête-à-tête idéal pour travailler la prise de décision et les mécaniques individuelles.
+
+        </li>
+        <li>
+
+          <strong>2v2 (Doubles)</strong> : Le mode le plus populaire, équilibré entre le jeu d'équipe et la liberté de mouvement.
+
+        </li>
+        <li>
+
+          <strong>3v3 (Standard / Compétitif & RLCS)</strong> : Le format officiel esport, basé sur le positionnement et les rotations d'équipe.
+
+      </li>
+      <li>
+          <strong>4v4 (Chaos)</strong> : Un mode plus grand et plus chaotique avec quatre joueurs par équipe.
+
+        </li>
+        </ul>
         Modes Extra :
-          <p>
-          • <strong>Rumble</strong> : Du football classique pimenté par 11 bonus aléatoires (gants de boxe, aimant, grappin, etc.) pour gêner les adversaires ou marquer.
-        <p>
-          • <strong>Cerceaux (Hoops)</strong> : Un mode inspiré du basketball où le but est rempli par un arceau en hauteur, privilégiant le jeu aérien.
-      </p>
-      <p>
-          • <strong>Dropshot</strong> : Un terrain hexagonal sans cages ; les joueurs doivent briser les tuiles au sol avec la balle pour marquer dans le trou créé.
-        <p>
-          • <strong>Jour de neige (Snow Day)</strong> : Le football classique joué avec un palet de hockey sur une patinoire gelée.
-      </p>
+        <ul>
+          <li>
+
+          <strong>Rumble</strong> : Du football classique pimenté par 11 bonus aléatoires (gants de boxe, aimant, grappin, etc.) pour gêner les adversaires ou marquer.
+
+          </li>
+          <li>
+
+          <strong>Cerceaux (Hoops)</strong> : Un mode inspiré du basketball où le but est rempli par un arceau en hauteur, privilégiant le jeu aérien.
+
+          </li>
+          <li>
+
+          <strong>Dropshot</strong> : Un terrain hexagonal sans cages ; les joueurs doivent briser les tuiles au sol avec la balle pour marquer dans le trou créé.
+
+          </li>  
+          <li>
+
+          <strong>Jour de neige (Snow Day)</strong> : Le football classique joué avec un palet de hockey sur une patinoire gelée.
+
+          </li>
+      </ul>
     </div>
   </div>
     <div class="Soustitre">
@@ -116,18 +141,21 @@
     <div class="texteV">
       <p>
         Dans <strong>Rocket League</strong> les arènes (ou maps) se divisent principalement en arènes standards (utilisées en mode compétitif) et en arènes alternatives, saisonnières ou communautaires.
-        <hr color="white">
+        <hr>
         Toute sorte de carte :
-      <p>
-          • <strong>Les arènes standards (compétitives)</strong> : Elles partagent toutes les mêmes dimensions et la même forme rectangulaire équitable pour les matchs officiels.
-        <p>
-          • <strong>Les arènes alternatives et non-standards</strong> : Ces cartes possèdent des configurations ou des formes différentes (piliers, obstacles, dimensions particulières).
-        </p>
-        <p>
-          • <strong>Les maps d'entraînement (Workshop / PC)</strong> : Réservées aux joueurs sur PC via des plateformes comme le Steam Workshop ou BakkesPlugins, elles servent à s'entraîner. 
-        </p>
-      </p>
+        <ul>
+          <li>
+          <strong>Les arènes standards (compétitives)</strong> : Elles partagent toutes les mêmes dimensions et la même forme rectangulaire équitable pour les matchs officiels.
+          </li>
+          <li>
+          <strong>Les arènes alternatives et non-standards</strong> : Ces cartes possèdent des configurations ou des formes différentes (piliers, obstacles, dimensions particulières).
+          </li>
+          <li>
+          <strong>Les maps d'entraînement (Workshop / PC)</strong> : Réservées aux joueurs sur PC via des plateformes comme le Steam Workshop ou BakkesPlugins, elles servent à s'entraîner. 
+          </li>
+          </ul>
     </div>
   </div>
 </div>
+</body>
 </html>

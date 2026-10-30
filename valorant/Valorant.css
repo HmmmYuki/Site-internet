@@ -5,7 +5,7 @@
 */
 
 .Rectangle{ /* permet de faire un rectangle pour placer à l'intérieur du texte ou autre */
-    background: linear-gradient(rgb(233, 58, 46), rgb(230, 83, 83)); /* cela permet de mettre un fond d'image avec un dégradé de couleur */
+    background: linear-gradient(rgb(233, 58, 46), rgb(230, 83, 83)); /* cela permet de mettre un dégradé de couleur */
     margin : 3%;
     padding : 3%;
 }
@@ -18,11 +18,7 @@
   background-color: #f70808e8;
   display: table-cell; /* cela permet de faire que le rectangle soit compté comme la cellule d'un tableau */
   padding: 10px;
-  text-align: center; /* permet de mettre le texte au milieu de l'image */
-}
-
-.underline {
-  text-decoration: underline; /* permet de souligner le texte */
+  text-align: center; /* permet de mettre le texte du bloc au centre */
 }
 
 .Titre {
@@ -38,9 +34,10 @@
 
 .Cac {
   display : flex; /* cela permet de placer côte à côte les choses, à la place de les empiler */
+  flex-wrap: wrap; /* Permet sur mobile de passer le texte sous l’image */
 }
 
-.img {
+.img img{
   margin: 10px; /* ça permet de créer un espace autour de l'image */
   height : auto; /* ça permet de gérer la taille de l'image */
   max-width: 100%;

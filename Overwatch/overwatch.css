@@ -34,7 +34,7 @@
 
 .Cac {
   display : flex; /* cela permet de placer côte à côte les choses, à la place de les empiler */
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Permet sur mobile de passer le texte sous l’image */
 }
 
 .img img{

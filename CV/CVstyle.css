@@ -1,3 +1,9 @@
+/*
+    Fichier : CVstyle.css
+    Rôle : CSS du CV_EN.html et CV_FR.html
+    Auteur : Tanguy JACQUES - Date : 22/10/2026
+*/
+
 .Rectangle{ /* permet de faire un rectangle pour placer du texte à l’intérieur ou autre */
     background-color: #ffffff;
     position: relative;

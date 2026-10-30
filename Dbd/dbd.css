@@ -37,7 +37,7 @@
   display : flex; /* cela permet de placer côte à côte les choses, à la place de les empiler */
 }
 
-.img {
+.img img{
   margin: 10px; /* ça permet de créer un espace autour de l'image */
   height : auto; /* ça permet de gérer la taille de l'image */
   max-width: 100%;
